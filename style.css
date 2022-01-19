@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* mulai */
+
+body,
+html {
+  background-color: #666;
+}
+.container {
+  width: 60em;
+  margin: 1em auto;
+}
+
+.card {
+  padding: 2em;
+  overflow: hidden;
+  border-radius: 6em;
+  display: inline-block;
+  margin: 2em;
+  height: 4em;
+  width: 20em;
+  background-color: white;
+}
+
+.card img {
+  float: left;
+  top: -1.25em;
+  left: -1em;
+  position: relative;
+}
+
+.card .nama,
+.card .telp {
+  display: block;
+  line-height: 0.5em;
+  padding: 0 5px;
+}
+
+.card .nama {
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.card .telp {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: black;
+}
+
+.card .close {
+  display: block;
+  position: relative;
+  top: -1.4em;
+  font-weight: bold;
+  right: -13em;
+  cursor: pointer;
+}
+
+.card .close:hover {
+  color: red;
+}
